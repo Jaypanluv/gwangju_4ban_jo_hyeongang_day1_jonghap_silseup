@@ -125,4 +125,3 @@ def test_validate_records_separates_valid_and_error_rows() -> None:
 
     assert len(valid_records) == 3
     assert error_records == []
-
